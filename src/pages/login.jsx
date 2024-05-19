@@ -31,6 +31,8 @@ function login() {
     </div>
     <button class="button-submit">Log In</button>
     <p class="p">Don't have an account? <Link to="/signup"><span class="span">Sign Up</span></Link></p>
+    <Link to="/profile"><button class="button-submit">Profile</button></Link>
+
 
     </form>
     </main>
