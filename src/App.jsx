@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
+import styled from 'styled-components'
 
 
 //pages
@@ -20,7 +21,8 @@ function App() {
       alert('Phhone number not available')
     }
   }
-  
+
+
 
   return (
     <main>
@@ -32,7 +34,7 @@ function App() {
       {/* Fallback page */}
       <Route path='*' element={<Error/>}/>
       </Routes>
-      <div style={{display: 'flex', justifyContent: 'center'}}>
+      <div style={{display: 'flex', justifyContent: 'center', marginTop: '20px'}}>
       <button id="callButton" data-phone-number="1234567890" onClick={callPhoneNumber}
       
       class="button">

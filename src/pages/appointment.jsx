@@ -2,7 +2,13 @@ import React from 'react'
 
 function appointment() {
   return (
-    <div>ligar a api das marcaçoes
+    <div>
+      <div>
+        <h1>Appointments</h1>
+        
+      </div>
+      ligar a api das marcaçoes
+      
     </div>
   )
 }
