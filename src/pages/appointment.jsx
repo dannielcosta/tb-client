@@ -63,7 +63,7 @@ function Appointment() {
         )}
       </div>
       <div className="buttons-links">
-        <Link to="/appointments">
+        <Link to="/appointment">
           <svg
             width="59"
             height="59"
